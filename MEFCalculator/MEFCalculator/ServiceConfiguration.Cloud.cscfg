@@ -3,7 +3,15 @@
   <Role name="WCFServiceCalc">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=csckeyxblob01;AccountKey=FBEjfMLgr77XkZDM8zA1cZL2ZGHBRnkGMwqFzd7ELYZadn2yM6sb64txPVMdJDXvBdYToi3Q5MBwLke1ksj+mg==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="csckeyx" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEE11ZYAZGwmfQUgXDF0Xb6swDQYJKoZIhvcNAQEBBQAEggEAAEescmsHijXjOv9XG76UivPJR1y3dYSP3+3rbQOKPoSHmV4RJ8xx4J1AgVojlveKp0S9HZrxasS0ig0Y6bzHIALJUoVBNgYzYmhgQRgZ+72EIQTaVFxpI9ShnSw4X/ssJHtcrMzqP5Wv9ihdXsKRkaTZZiyjY8bU2NeYyN8J5MPBuOZJ3ogyJFQVBX8+hzhs0n02SRtbwcTDd+SqYYYEGKMx1tgqOV/QU5YzaJ3uP1FPgW33jyCBGvRXO1ERRPDpwgnP6elfBZtzaSTQkRG/11b0KWlOuWR2cSZcepGFwBuOXeL0KCuLPkdkA0X5PkASj4Cl1N6STkeARdyAifPZNzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECH16SMvTdRzSgBDFkBTQH7DSBisIceQkEOXD" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2015-05-07T23:59:59.0000000-04:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
     </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="52D9E433C91A026C609DE97CA754442FEDDD83D5" thumbprintAlgorithm="sha1" />
+    </Certificates>
   </Role>
 </ServiceConfiguration>
